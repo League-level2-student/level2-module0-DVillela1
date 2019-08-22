@@ -1,7 +1,5 @@
 package arrays;
 
-import java.util.Random;
-
 public class _00_ArrayCheatSheet {
 	public static void main(String[] args) {
 		//1. make an array of 5 Strings
@@ -20,9 +18,8 @@ public class _00_ArrayCheatSheet {
 		//6. make an array of 50 integers
 			int[] p = new int[50];
 		//7. use a for loop to make every value of the integer array a random number
-			for (int k = 0; k < 50; k++) {
-				Random n = new Random();
-				int[] p = {n.nextInt(51)};
+			for (int x = 0; x < 51; x++) {
+				int p[] = {x}; 
 			}
 		//8. without printing the entire array, print only the smallest number in the array
 		System.out.println();
